@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif&display=swap');
+
+* {box-sizing: border-box;}
+
+body {width: 90vw;
+	max-width: 830px;
+	margin: auto;
+	background-color: floralwhite;
+	color: darkred;
+	font-family: 'Noto Sans', Sans-Serif;
+	padding-bottom: .7em;
+	transition: 1.5s;}
+
+header h1, header p {text-align: center;}
+
+h1 {margin-bottom: 0;}
+
+p {margin-top: 0;}
+
+h2 {text text-decoration: underline;}
+
+header {font-family: 'Noto Serif', Serif;
+			font-size: 1.5em}
+
+a {color: darkred;
+	transition: 1.5s;}
+
+section {border-bottom: 1px groove darkred;
+		border-right: 1px groove darkred;
+		box-shadow: 3px 3px 6px black;
+		padding-left: .7em
+		margin: auto;}
+
+.col {width: 40%;
+	float: right;
+	height: 25vh;
+	overflow: auto;}
+
+.row::after {content: "";
+		display: table;
+		clear: both;}
+
+
+
+}
